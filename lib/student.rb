@@ -5,7 +5,6 @@ class Student
   def initialize(name, grade, id=nil)
     self.name = name
     self.grade = grade
-    @id = id
   end
 
   def self.create_table
